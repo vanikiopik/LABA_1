@@ -9,7 +9,7 @@ int main()
     double a, result_one, result_two;
     cout << "Emput a number - ";
     //Checking input for numbers
-    while (!(cin >> a)) 
+    if (!(cin >> a)) 
     {
         cout << "Wrong input!";
         return 0;
